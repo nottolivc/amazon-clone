@@ -17,7 +17,7 @@ const promise = loadStripe(
 );
 
 function App() {
-  const [{}, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   useEffect(() => {
     // will only run once when the component will mount
@@ -33,7 +33,7 @@ function App() {
           user: authUser,
         });
       } else {
-        
+
         // the user is logged out
         dispatch({
           type: "SET_USER",
@@ -41,7 +41,7 @@ function App() {
         });
       }
     });
-  }, []);
+  }, [dispatch]);
 
   return (
     <Router>
