@@ -1,7 +1,9 @@
 # Amazon (Clone)
 Full Stack E-commerce clone with serverless Lambda functions and Stripe payment integration in React hooks
-
+## Screenshots
+![Preview](Demo_home.png?raw=true)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Available Scripts
 
 In the project directory, you can run:
