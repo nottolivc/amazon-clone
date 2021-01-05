@@ -17,7 +17,7 @@ const promise = loadStripe(
 );
 
 function App() {
-  const [dispatch] = useStateValue();
+  const [{}, dispatch] = useStateValue();
 
   useEffect(() => {
     // will only run once when the component will mount
