@@ -33,7 +33,7 @@ function App() {
           user: authUser,
         });
       } else {
-        
+
         // the user is logged out
         dispatch({
           type: "SET_USER",
@@ -41,7 +41,7 @@ function App() {
         });
       }
     });
-  }, []);
+  }, [dispatch]);
 
   return (
     <Router>
